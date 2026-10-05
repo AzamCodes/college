@@ -1,0 +1,10 @@
+﻿:root { --ink: #20221e; --paper: #f4f2ec; --sage: #a8b9a1; --lime: #d8e777; --line: rgba(32, 34, 30, 0.19); --serif: "Space Grotesk", sans-serif; --sans: "Poppins", sans-serif; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 15px; -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+button,
+input,
+select,
+textarea { font: inherit; }
+button { color: inherit; }
